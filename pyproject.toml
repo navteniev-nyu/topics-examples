@@ -1,0 +1,10 @@
+[project]
+name = "topics-examples"
+version = "0.1.0"
+description = "Examples for the topics in software engineering course"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["probability-matrix"]
